@@ -53,3 +53,13 @@
 - Anytime we are interacting with an application we are operating at layer 7.
 - Common protocols that would operate at OSI layer 7 are HTTP & HTTPS, FTP, DNS, POP3, and many more other application protocols. 
 
+# Real-world to OSI model
+| Layer | Name         | Examples/Concepts |
+|-------|--------------|-------------------------------|
+| 7    | Application  | UI      |
+| 6    | Presentation | Application encryption(SSL/TLS)   |
+| 5    | Session      | Control protocols, tunneling protocols     |
+| 4    | Transport    | TCP segment, UDP datagram       |
+| 3    | Network      | IP Address, Router, Packet  |
+| 2    | Data Link    | Frame, MAC address, Extended Unique Identifier(EUI-48, EUI-64), Switch |
+| 1    | Physical     | Cables, fiber, and the signal itself |
