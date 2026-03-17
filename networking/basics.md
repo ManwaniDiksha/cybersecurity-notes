@@ -107,5 +107,5 @@
     - Distributes the load across multiple physical servers. This load balancing is invisible to end-users.
     - Data centers have a large number of web servers or database servers in farms that are used with this load balancer to maintain uptime and availability.
     - Load Balancers are very good at identifying server outages. So if one of the server fails due to any reason the load balancer will recognize this issue and take that particular server out of the rotation and continue to provide access to these services using the remaining servers.
-    
-     ![Load Balancer Image](../images/load-balancer.png)
+    <br> 
+    ![Load Balancer Image](../images/load-balancer.png)
