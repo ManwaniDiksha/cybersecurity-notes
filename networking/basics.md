@@ -108,4 +108,4 @@
     - Data centers have a large number of web servers or database servers in farms that are used with this load balancer to maintain uptime and availability.
     - Load Balancers are very good at identifying server outages. So if one of the server fails due to any reason the load balancer will recognize this issue and take that particular server out of the rotation and continue to provide access to these services using the remaining servers.
 
-    ![Load Balancer Image](images/Load-Balancer.png)
+    ![Load Balancer Image](images/load-balancer.png)
