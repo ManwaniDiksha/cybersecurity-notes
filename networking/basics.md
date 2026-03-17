@@ -4,13 +4,13 @@
 - OSI can be applied to many different protocols. Many protocols might operate at an individual layer of the OSI model.
 
 # Layers of the OSI Model
-### Layer 7 - Application      | All
-### Layer 6 - Presentation     | People
-### Layer 5 - Session          | Seem
-### Layer 4 - Transport        | To 
-### Layer 3 - Network          | Need
-### Layer 2 - Data Link        | Data
-### Layer 1 - Physical         | Processing 
+### Layer 7 - Application    &nbsp &nbsp  | All
+### Layer 6 - Presentation   &nbsp &nbsp  | People
+### Layer 5 - Session        &nbsp &nbsp  | Seem
+### Layer 4 - Transport      &nbsp &nbsp  | To 
+### Layer 3 - Network        &nbsp &nbsp  | Need
+### Layer 2 - Data Link      &nbsp &nbsp  | Data
+### Layer 1 - Physical       &nbsp &nbsp  | Processing 
 
 ## Layer 1 - Physical Layer 
 - Describes the physical signals that we send through the cables on our network
