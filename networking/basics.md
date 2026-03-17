@@ -106,5 +106,45 @@
     ## Load Balancer
     - Distributes the load across multiple physical servers. This load balancing is invisible to end-users.
     - Data centers have a large number of web servers or database servers in farms that are used with this load balancer to maintain uptime and availability.
-    - Load Balancers are very good at identifying server outages. So if one of the server fails due to any reason the load balancer will recognize this issue and take that particular server out of the rotation and continue to provide access to these services using the remaining servers.<br> 
+    - Load Balancers are very good at identifying server outages. So if one of the server fails due to any reason the load balancer will recognize this issue and take that particular server out of the rotation and continue to provide access to these services using the remaining servers.
     ![Load Balancer Image](../images/load-balancer.png)
+    - Load Balancers can also optimize the communication by performing TCP offloading so the communication to the servers are occurring as quickly as possible.
+    - They can also act as SSL offload by providing the encryption and decryption capabilities instead.
+    - Data can also be cached on the load balancer so it will provide fast responses.
+    - They are also very good at prioritizing different types of traffic over others. This prioritization is performed using Quality of Service (QoS)
+    - They also provide application-centric balancing (content switching) where certain pages may be located on certain servers and all of the requests to those pages would go exclusively to those individual servers.
+
+    ## Proxies
+    - Sits between the users and the external network and manages these connections.
+    - The proxy is responsible for taking the user's request, performing the request on their behalf, receiving the answer to that request, verifying that the answer doesn't contain some type of malicious code/software, and then providing that answer to the end user.
+    - Useful for caching information, access control, URL filtering, content scanning.
+    - Applications may need to know how to use the proxy, this is the explicit behaviour of proxy.
+    - Not all proxies have to behave in an explicit manner, there are also transparent proxies that work invisibly without making any changes to the OS or the application.
+
+    ## NAS vs. SAN
+    - NAS = Network Attached Storage
+        - Connect to a shared storage device across the network.
+        - Provides file-level access.
+    - SAN = Storage Area Network
+        - Works like a local storage device.
+        - Provides block-level access.
+        - Very efficient reading and writing.
+    - It is very common to put the NAS or the SAN on its own isolated network which has very high bandwidths.
+
+    ## Access Point (AP)
+    - Allows a device to communicate wirelessly to the rest of the network.
+    - An access point is not a wireless router. A wireless router is a router and an access point and a switch in a single device.
+    - AP bridges the connection between the wireless network and the wired ethernet network.
+    - OSI layer 2 device.
+    - Multiple access points are used to make sure everyone in a large area is able to access the wireless network wherever they are in that area. These APs can be anywhere in the local network or in a remote site network.
+    - Security settings, access policies and other configuration parameters within that AP are to be managed.
+    - There has to be seamless network access so people can roam from one AP to another and always stay connected to the network.
+
+    ## Wireless LAN controllers
+    - Instead of connecting to each individual access point, there is a centralized management tool for all access points which is the wireless LAN controller.
+    - A single "pane of glass".
+    - With this single device we can deploy new access points with a full configuration.
+    - In this device, performance and security monitoring can also be set up.
+    - Changes can be configured and deployed to all access point from this one device.
+    - Useful with creating reports on access point use.
+    - Usually a proprietary system.
